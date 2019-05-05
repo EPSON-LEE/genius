@@ -38,6 +38,10 @@ export default ({ children }) => {
       path: "/article/",
       title: "article",
     },
+    {
+      path: "/toy/",
+      title: "toy",
+    },
   ]
   return (
     <div
