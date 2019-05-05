@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/genius",
   siteMetadata: {
-    title: `SuperYipe's home`,
+    title: `superYipe's home`,
   },
   plugins: [
     {
@@ -9,7 +9,7 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
-      },
+      }
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
