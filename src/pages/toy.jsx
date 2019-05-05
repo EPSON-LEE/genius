@@ -1,9 +1,6 @@
 import React from "react"
 import Parallax from "react-springy-parallax"
 
-// export default React
-
-
 export default class App extends React.Component {
   render() {
     const styles = {
@@ -39,7 +36,7 @@ export default class App extends React.Component {
           style={styles}
           onClick={() => this.refs.parallax.scrollTo(1)}
         >
-          Click!
+          你!
         </Parallax.Layer>
 
         <Parallax.Layer
@@ -48,7 +45,7 @@ export default class App extends React.Component {
           style={styles}
           onClick={() => this.refs.parallax.scrollTo(2)}
         >
-          Another page ...
+          是谁？
         </Parallax.Layer>
 
         <Parallax.Layer
@@ -57,7 +54,7 @@ export default class App extends React.Component {
           style={styles}
           onClick={() => this.refs.parallax.scrollTo(0)}
         >
-          The end.
+          嗯？
         </Parallax.Layer>
       </Parallax>
     )

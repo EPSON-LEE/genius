@@ -42,6 +42,10 @@ export default ({ children }) => {
       path: "/toy/",
       title: "toy",
     },
+    {
+      path: "/hooks/",
+      title: "hooks",
+    },
   ]
   return (
     <div
