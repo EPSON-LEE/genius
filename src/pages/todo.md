@@ -13,10 +13,10 @@ date: "2019-05-05"
 
 ## 源码计划
 
-- [] react doing...
-- [] nerve
-- [] vue
-- [] js benchmark
+- [ ] react doing...
+- [ ] nerve
+- [ ] vue
+- [ ] js benchmark
 
 ## Node 工具
 
