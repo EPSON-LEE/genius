@@ -109,3 +109,7 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 
 ## vscode
 - [x] koroFileHeader
+
+## debugger
+
+- [x] *[chrome shortcuts in devTools](https://developers.google.com/web/tools/chrome-devtools/shortcuts)* 
