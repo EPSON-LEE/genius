@@ -11,6 +11,13 @@ date: "2019-05-05"
 - [ ] webpack打包和前端工具的建设
 - [ ] node core
 
+## 源码计划
+
+- [] react doing...
+- [] nerve
+- [] vue
+- [] js benchmark
+
 ## Node 工具
 
 - [ ] *[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.0/programs/ab.html)* ab -n 1000 -c 100  http://127.0.0.1:8999/
@@ -82,9 +89,14 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 1. graphql
 1. hooks
 
-## 前端自动化
+## 业务的一些自动化
 
 - [ ] ali uform 号称可以解决表单配置化
+
+## 构建工具
+
+- [x] rollup
+- [x] webpack
 
 ## 统一平台
 
