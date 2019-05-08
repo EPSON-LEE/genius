@@ -97,7 +97,3 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 
 ## vscode
 - [x] koroFileHeader
-
-### something strange
-
-- [x] `in` operator
