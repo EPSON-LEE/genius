@@ -1,8 +1,14 @@
+---
+title: "messy"
+date: "2019-05-18"
+---
+
 ## rollup
-```
+
 似乎没有支持 HMR 的plugins
-在官方的提供的 *[rollup/awesome](https://github.com/rollup/awesome)* 中提供了一个*[Nollup](https://github.com/PepsRyuu/nollup)*
-```
+在官方的提供的 *[rollup/awesome](https://github.com/rollup/awesome)*
+中提供了一个*[Nollup](https://github.com/PepsRyuu/nollup)*
+
 
 ## JavaScript
 ```js

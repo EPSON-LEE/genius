@@ -113,3 +113,12 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 ## debugger
 
 - [x] *[chrome shortcuts in devTools](https://developers.google.com/web/tools/chrome-devtools/shortcuts)* 
+- [x] *[Debugging Reference](https://developers.google.com/web/tools/chrome-devtools/javascript/reference?hl=zh-cn#stepping)*
+
+## 语言问题
+```
+step over: 逐行单步执行 不管下一行发生什么都会执行，并跳转到下一行。
+step into: investigate the function further 	如果下一行包含一个函数调用，Step Into 将跳转并在其第一行暂停该函数。
+step out: 	函数调用后，执行当前函数剩余部分，然后在下一个语句暂停。
+
+```
