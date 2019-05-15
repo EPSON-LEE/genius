@@ -22,6 +22,10 @@ date: "2019-05-05"
 
 - [ ] *[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.0/programs/ab.html)* ab -n 1000 -c 100  http://127.0.0.1:8999/
 
+## Node多线程
+
+- [x] *[Node.js的线程和进程详解](https://github.com/xiongwilee/blog/issues/9)*
+- [x] *[An Intruction To libuv](http://luohaha.github.io/Chinese-uvbook/index.html)*
 
 ## Book
 
@@ -31,6 +35,10 @@ date: "2019-05-05"
 - [ ] 前端工程化体系建设与实践
 - [x] MySQL必知必会
 - [x] Functional-Light JavaScript
+
+- [] *[Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)*
+- [] *[Category Theory for Computer Science](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)*
+- [] *[范畴论完全装逼手册](https://blog.oyanglul.us/grokking-monad/part1)*
 
 ## Code formatter tools
 
@@ -42,7 +50,7 @@ date: "2019-05-05"
 
 - [ ] ssr
 - [ ] graphql
-- [ ] 负责运维平台前端的实现 + bilibili go.common
+- [x] 负责运维平台前端的实现 + bilibili go.common
 - [ ] pwa service worker
 
 ## TeamWork
@@ -66,6 +74,8 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 - [ ] 火焰图 早期有实践，还需挖掘
 - [ ] 降低工程的编译时间 缩短打包时间
 
+- [ ] React devtools settings -> Heighlight Updates -> 可以看到
+
 ## Tools and Framework
 
 - [x] *[Font Awesome](https://fontawesome.com/start "Title")*
@@ -80,6 +90,7 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 
 - [x] *[Functional Programming](https://github.com/stoeffel/awesome-fp-js "Title")*
 - [x] this is a complete item
+
 ## 文档建设
 
 - [x] vue press
@@ -89,14 +100,27 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 1. graphql
 1. hooks
 
+- [ ] *[hypothes.is](https://web.hypothes.is/)*
+- [ ] *[slideshow tool](https://github.com/gnab/remark)*
+
 ## 业务的一些自动化
 
-- [ ] ali uform 号称可以解决表单配置化
+- [ ] *[ali uform 号称可以解决表单配置化](https://github.com/alibaba/uform)*
+- [ ] *[final form uform借鉴](https://github.com/final-form/final-form)*
+- [ ] *[react-json-form](https://github.com/mozilla-services/react-jsonschema-form)*
+- [ ] *[vue-form-making](http://tools.xiaoyaoji.cn/form/#/price)*
+
+## platform
+
+- [ ] netlify
 
 ## 构建工具
 
 - [x] rollup
 - [x] webpack
+
+### table
+- [] *[table](https://github.com/webpack/tapable)*编写loaders 和 plugins
 
 ## 统一平台
 
