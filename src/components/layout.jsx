@@ -28,52 +28,59 @@ export default ({ children }) => {
     },
     {
       path: "/about/",
-      title: "about",
+      title: "About",
     },
     {
       path: "/contact/",
-      title: "contact",
+      title: "Contact",
     },
     {
       path: "/article/",
-      title: "article",
+      title: "Article",
     },
     {
       path: "/toy/",
-      title: "toy",
+      title: "Toy",
     },
     {
       path: "/hooks/",
-      title: "hooks",
+      title: "Hooks",
     },
     {
-      path: "/todo/",
-      title: "todo",
+      path: "/animate/",
+      title: "Animate",
     },
   ]
   return (
     <div
       css={css`
         margin: 0 auto;
-        max-width: 900px;
+        max-width: 1400px;
+        padding-left: 0;
         padding: ${rhythm(2)};
         padding-top: ${rhythm(1.5)};
       `}
     >
-      <Link to={`/`}>
+      {/* <Link to={`/`}>
         <h4
           css={css`
             margin-top: 0;
-            margin-bottom: ${rhythm(2)};
+            margin-bottom: ${rhythm(3)};
             display: inline-block;
             font-style: normal;
           `}
         >
           {data.site.siteMetadata.title}
         </h4>
-      </Link>
+      </Link> */}
 
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul
+        style={{
+          marginLeft: 0,
+          listStyle: `none`,
+          color: `black`,
+        }}
+      >
         {route().map(item => (
           <ListLink key={item.title} to={item.path}>
             {item.title}
