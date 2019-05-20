@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <div style={{ color: `purple` }}>
-      <p>Home.</p>
+      <p>很菜以至于靠这个面试</p>
       <img src="https://source.unsplash.com/random/800x800" alt="" />
     </div>
   </Layout>
