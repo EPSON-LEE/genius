@@ -3,6 +3,11 @@ title: "Graph Plans"
 date: "2019-05-05"
 ---
 
+## Fashion
+
+- [] *[ReasonML](https://curl.haxx.se/)*
+- [] *[ReasonMLReact](https://reasonml.github.io/reason-react//)*
+
 ## Core
 
 - [x] 计算机网络
@@ -15,12 +20,13 @@ date: "2019-05-05"
 
 - [ ] react doing...
 - [ ] nerve
-- [ ] vue
-- [ ] js benchmark
+- [ ] vue doing
+- [ ] *[js benchmark 框架性能衡量工具](https://curl.haxx.se/)*
 
-## Node 工具
+## 工具
 
 - [ ] *[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.0/programs/ab.html)* ab -n 1000 -c 100  http://127.0.0.1:8999/
+- [*] *[curl](https://curl.haxx.se/)*
 
 ## Node多线程
 
@@ -126,6 +132,9 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 
 - [ ] sso
 - [ ] cmsproxy
+- [ ] JWT
+
+## 
 
 ## UI LIB
 
