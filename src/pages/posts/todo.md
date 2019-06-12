@@ -7,6 +7,7 @@ date: "2019-05-05"
 
 - [] *[ReasonML](https://curl.haxx.se/)*
 - [] *[ReasonMLReact](https://reasonml.github.io/reason-react//)*
+- [] *[Nest](https://docs.nestjs.com/)*
 
 ## Core
 
@@ -22,6 +23,10 @@ date: "2019-05-05"
 - [ ] nerve
 - [ ] vue doing
 - [ ] *[js benchmark 框架性能衡量工具](https://curl.haxx.se/)*
+
+### css
+- [] element-ui
+- [] *[airbnb/css 标准](https://github.com/Zhangjd/css-style-guide)*
 
 ## 工具
 
@@ -40,8 +45,9 @@ date: "2019-05-05"
 - [x] You don't know JavaScript chapter 1
 - [ ] 前端工程化体系建设与实践
 - [x] MySQL必知必会
-- [x] Functional-Light JavaScript
+- [x] Functional-Light JavaScript ing
 
+- [] *[eloquentjavascript](http://eloquentjavascript.net)*
 - [] *[Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)*
 - [] *[Category Theory for Computer Science](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)*
 - [] *[范畴论完全装逼手册](https://blog.oyanglul.us/grokking-monad/part1)*
