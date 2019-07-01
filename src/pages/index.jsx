@@ -4,8 +4,9 @@ import Layout from "../components/Layout/layout"
 export default () => (
   <Layout>
     <div>
-      <p>很菜以至于靠这个面试</p>
-      <img src="https://source.unsplash.com/random/800x800" alt="" />
+      <img
+        style={{ width: '100%' }}
+        src="https://source.unsplash.com/random/400x400" alt="" />
     </div>
   </Layout>
 )

@@ -37,9 +37,16 @@ export default class MobileMenu extends Component {
               this.dropdownMenu = element
             }}
           >
+            <div>
+              aaa
+            </div>
             {routes.map(item => {
               return (
-                <Link key={item.title} to={item.path}>
+                <Link
+                  className={menu.mobile_menu_font_item}
+                  key={item.title}
+                  to={item.path}
+                >
                   {item.title}
                 </Link>
               )

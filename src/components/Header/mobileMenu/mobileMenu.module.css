@@ -1,12 +1,15 @@
 .mobile_menu {
   display: inline-block;
-  width: 50px;
+  width: 100%;
   position: fixed;
-  top: 30px;
-  right: 10px;
+  top: 0;
 }
 
 .mobile_menu_item {
   display: flex;
   flex-direction: column;
+}
+
+.mobile_menu_font_item {
+  color: black;
 }
