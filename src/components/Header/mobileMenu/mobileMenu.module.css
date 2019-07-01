@@ -1,0 +1,12 @@
+.mobile_menu {
+  display: inline-block;
+  width: 50px;
+  position: fixed;
+  top: 30px;
+  right: 10px;
+}
+
+.mobile_menu_item {
+  display: flex;
+  flex-direction: column;
+}

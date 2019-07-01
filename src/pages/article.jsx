@@ -1,36 +1,40 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
+import articleCss from "./style/article.module.css"
 
 export default ({ data }) => {
   return (
     <Layout>
-      <div>
-        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
-        <span>{data.allMarkdownRemark.totalCount} Posts</span>
+      <div className={articleCss.article_layout}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <h3
-              css={css`
-                margin-bottom: ${rhythm(1 / 4)};
-              `}
-            >
-              <Link to={node.fields.slug}>
-                {node.frontmatter.title}
-              </Link>
-              <span
-                css={css`
-                  color: #bbb;
-                `}
-              >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+          <div className={articleCss.article_item} key={node.id}>
+            <div className={articleCss.article_item_body}>
+              <h2 className={articleCss.article_item_body_title}>
+                <Link style={{ color: "black" }} to={node.fields.slug}>
+                  {node.frontmatter.title}
+                </Link>
+              </h2>
+
+              <div className={articleCss.article_item_body_des}>
+                <Link
+                  style={{
+                    color: "rgba(0,0,0,.54)",
+                  }}
+                  to={node.fields.slug}
+                >
+                  {node.excerpt}
+                </Link>
+              </div>
+
+              <div className={articleCss.article_item_body_des}>
+                <Link to={node.fields.slug}>{node.frontmatter.date}</Link>
+              </div>
+            </div>
           </div>
         ))}
+        <span>{data.allMarkdownRemark.totalCount} Posts</span>
       </div>
     </Layout>
   )

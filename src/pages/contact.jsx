@@ -1,10 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 
-export default () => (
-  <Layout>
-    <div style={{ color: `teal` }}>
-      <p>Send us a message!</p>
-    </div>
-  </Layout>
-)
+export default () => <Layout />

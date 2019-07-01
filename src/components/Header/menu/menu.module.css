@@ -1,0 +1,10 @@
+.header_menu_link {
+  display: inline;
+  color: white;
+  padding: 1rem;
+}
+
+.header_menu_link_activeClassName {
+  background: white;
+  color: black;
+}

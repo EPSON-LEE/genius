@@ -5,9 +5,9 @@ date: "2019-05-05"
 
 ## Fashion
 
-- [] *[ReasonML](https://curl.haxx.se/)*
-- [] *[ReasonMLReact](https://reasonml.github.io/reason-react//)*
-- [] *[Nest](https://docs.nestjs.com/)*
+- [ ] *[ReasonML](https://curl.haxx.se/)*
+- [ ] *[ReasonMLReact](https://reasonml.github.io/reason-react//)*
+- [ ] *[Nest](https://docs.nestjs.com/)*
 
 ## Core
 
@@ -25,14 +25,14 @@ date: "2019-05-05"
 - [ ] *[js benchmark 框架性能衡量工具](https://curl.haxx.se/)*
 
 ### css
-- [] element-ui
-- [] *[airbnb/css 标准](https://github.com/Zhangjd/css-style-guide)*
-- [] *[css 各种单位](https://www.w3cplus.com/blog/tags/143.html)*
+- [ ] element-ui
+- [ ] *[airbnb/css 标准](https://github.com/Zhangjd/css-style-guide)*
+- [ ] *[css 各种单位](https://www.w3cplus.com/blog/tags/143.html)*
 
 ## 工具
 
 - [ ] *[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.0/programs/ab.html)* ab -n 1000 -c 100  http://127.0.0.1:8999/
-- [*] *[curl](https://curl.haxx.se/)*
+- [x] *[curl](https://curl.haxx.se/)*
 
 ## Node多线程
 
@@ -48,10 +48,10 @@ date: "2019-05-05"
 - [x] MySQL必知必会
 - [x] Functional-Light JavaScript ing
 
-- [] *[eloquentjavascript](http://eloquentjavascript.net)*
-- [] *[Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)*
-- [] *[Category Theory for Computer Science](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)*
-- [] *[范畴论完全装逼手册](https://blog.oyanglul.us/grokking-monad/part1)*
+- [ ] *[eloquentjavascript](http://eloquentjavascript.net)*
+- [ ] *[Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)*
+- [ ] *[Category Theory for Computer Science](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)*
+- [ ] *[范畴论完全装逼手册](https://blog.oyanglul.us/grokking-monad/part1)*
 
 ## Code formatter tools
 
@@ -133,7 +133,7 @@ https://bl.ocks.org: *[https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b
 - [x] webpack
 
 ### table
-- [] *[table](https://github.com/webpack/tapable)*编写loaders 和 plugins
+- [x] *[table](https://github.com/webpack/tapable)*编写loaders 和 plugins
 
 ## 统一平台
 
