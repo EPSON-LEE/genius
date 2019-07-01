@@ -1,10 +1,9 @@
 .layout {
-  height: calc(100vh - 80px);
+  overflow: scroll;
 }
 
 .content {
-  max-width: 100%;
-  margin-top: 40px;
+  margin-top: 80px;
   overflow: scroll;
   padding: 0 20px;
 }
