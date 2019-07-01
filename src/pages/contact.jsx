@@ -12,10 +12,10 @@ export default () => {
       <div className="contractCss.container">
         <span className={contractCss.profile} />
         {/* typing animation */}
-        <p className={contractCss.typing}>李嘉豪，男，24岁，前端表单工程师。</p>
+        <p className={contractCss.typing}>李嘉豪，男，24岁，前端表单工程师。👿🐶</p>
         <p> 技能：</p>
-        <ReactIcon width="30" /> + <ReduxIcon width="30" /> + <AntdIcon />
-        <vueIcon /> 
+        <ReactIcon width="30" />  <ReduxIcon width="30" />  <AntdIcon />
+        <vueIcon />
       </div>
     </Layout>
   )
