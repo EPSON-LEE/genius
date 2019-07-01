@@ -8,7 +8,7 @@
   width: 80px;
   background-size: 80px 80px;
   animation:spin 4s linear infinite;
-  background-image: url(https://duckduckgo.com/assets/logo_header.v108.svg);
+  background-image: url('../../../assets/duck.svg');
 }
 
 @keyframes spin {
