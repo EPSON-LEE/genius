@@ -4,6 +4,7 @@
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 999;
 }
 
 .mobile_menu_item {
@@ -12,5 +13,17 @@
 }
 
 .mobile_menu_font_item {
+  display: inline-block;
   color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+.mobile_menu_font_item:hover{
+  font-weight: bold;
+}
+
+.mobile_active_menu_font_item {
+  background-color: white;
+  color: black;
 }
