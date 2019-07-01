@@ -1,8 +1,9 @@
 .mobile_menu {
+  background-color: black;
   display: inline-block;
   width: 100%;
   position: fixed;
-  top: 0;
+  top: 0px;
 }
 
 .mobile_menu_item {
@@ -11,5 +12,5 @@
 }
 
 .mobile_menu_font_item {
-  color: black;
+  color: white;
 }

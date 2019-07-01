@@ -28,7 +28,9 @@ export default class MobileMenu extends Component {
     return (
       <div className={menu.mobile_menu}>
         <span onClick={this.showMenu}>
-          <div>&#9776;</div>
+          <div style={{
+            color: "white"
+          }}>&#9776;</div>
         </span>
         {this.state.showMenu ? (
           <div
@@ -37,9 +39,6 @@ export default class MobileMenu extends Component {
               this.dropdownMenu = element
             }}
           >
-            <div>
-              aaa
-            </div>
             {routes.map(item => {
               return (
                 <Link
