@@ -5,11 +5,13 @@
 }
 
 .article_item {
-  width: 600px;
+  margin-top: 40px;
+  padding: 0 20px;
+  width: 90%;
 }
 
 .article_item_body {
-  width: 750px;
+  width: 90%;
 }
 
 .article_item_body_title {
