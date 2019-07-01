@@ -27,9 +27,10 @@ export default class MobileMenu extends Component {
   render() {
     return (
       <div className={menu.mobile_menu}>
-        <span className={menu.three_line} onClick={this.showMenu}>
+        <span className={menu.mobile_menu_three_line} onClick={this.showMenu}>
           <div
             style={{
+              zIndex: 999,
               color: "white",
               fontSize: "40px",
               background: "black",

@@ -4,9 +4,10 @@ module.exports = {
     title: `superYipe's home`,
     description: `superYipe's home`,
     siteUrl: `https://epson-lee.github.io/genius/`,
-    site_url: `https://epson-lee.github.io/genius/`
+    site_url: `https://epson-lee.github.io/genius/`,
   },
   plugins: [
+    "gatsby-plugin-svgr",
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,

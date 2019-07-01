@@ -8,7 +8,6 @@
 }
 
 .mobile_menu_item_show {
-  z-index: -1;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -18,7 +17,6 @@
 
 
 .mobile_menu_item_hide {
-  z-index: -1;
   display: flex;
   flex-direction: column;
   position: relative;
