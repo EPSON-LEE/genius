@@ -16,8 +16,8 @@
 .mobile_menu_font_item {
   display: inline-block;
   color: white;
-  height: 30px;
-  line-height: 30px;
+  height: 60px;
+  line-height: 60px;
 }
 
 .mobile_menu_font_item:hover{
