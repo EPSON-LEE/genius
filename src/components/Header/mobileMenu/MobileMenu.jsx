@@ -7,19 +7,19 @@ export default class MobileMenu extends Component {
   constructor() {
     super()
     this.state = {
-      showMenu: false,
+      visibility: "mobile_menu_item_hide",
     }
   }
 
   showMenu = event => {
     event.preventDefault()
-    this.setState({ showMenu: true }, () => {
+    this.setState({ visibility: "mobile_menu_item_show" }, () => {
       document.addEventListener("click", this.closeMenu)
     })
   }
 
   closeMenu = event => {
-    this.setState({ showMenu: false }, () => {
+    this.setState({ visibility: "mobile_menu_item_hide" }, () => {
       document.removeEventListener("click", this.closeMenu)
     })
   }
@@ -27,19 +27,20 @@ export default class MobileMenu extends Component {
   render() {
     return (
       <div className={menu.mobile_menu}>
-        <span onClick={this.showMenu}>
+        <span className={menu.three_line} onClick={this.showMenu}>
           <div
             style={{
               color: "white",
-              fontSize: '40px'
+              fontSize: "40px",
+              background: "black",
             }}
           >
             &#9776;
           </div>
         </span>
-        {this.state.showMenu ? (
+        <div>
           <div
-            className={menu.mobile_menu_item}
+            className={`${menu[this.state.visibility]}`}
             ref={element => {
               this.dropdownMenu = element
             }}
@@ -57,7 +58,7 @@ export default class MobileMenu extends Component {
               )
             })}
           </div>
-        ) : null}
+        </div>
       </div>
     )
   }
