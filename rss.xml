@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[superYipe's home]]></title><description><![CDATA[superYipe's home]]></description><link>https://epson-lee.github.io/genius/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 01 Jul 2019 17:09:39 GMT</lastBuildDate><item><title><![CDATA[Recurision]]></title><link>https://epson-lee.github.io/genius//posts/recursion/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/recursion/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Chrome Dev Tools]]></title><description><![CDATA[debugger 时无法进入打包后的代码Blackboxing 会屏蔽掉符合某一个规则的js代码中的debugger解决方法：chrome dev tools -> settings -> Blackboxing -> delete pattern]]></description><link>https://epson-lee.github.io/genius//posts/chromeDev/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/chromeDev/</guid><pubDate>Sat, 18 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h4&gt;debugger 时无法进入打包后的代码&lt;/h4&gt;
+&lt;p&gt;Blackboxing 会屏蔽掉符合某一个规则的js代码中的debugger&lt;/p&gt;
+&lt;p&gt;解决方法：chrome dev tools -&gt; settings -&gt; Blackboxing -&gt; delete pattern&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/genius/static/032e3208b515249f52061bc3c057cb3a/6564b/chromeDev.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 26.322930800542743%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3qFB/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAT8hj//aAAwDAQACAAMAAAAQ8A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAWEAEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQEAAT8QCNld/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;avatar&quot;
+        title=&quot;&quot;
+        src=&quot;/genius/static/032e3208b515249f52061bc3c057cb3a/a111b/chromeDev.jpg&quot;
+        srcset=&quot;/genius/static/032e3208b515249f52061bc3c057cb3a/aca85/chromeDev.jpg 163w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/0954f/chromeDev.jpg 325w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/a111b/chromeDev.jpg 650w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/ce471/chromeDev.jpg 975w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/bee4e/chromeDev.jpg 1300w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/9c49d/chromeDev.jpg 1950w,
+/genius/static/032e3208b515249f52061bc3c057cb3a/6564b/chromeDev.jpg 2948w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Event loop]]></title><description><![CDATA[Task一个event loop会有一个或多个task队列
+常见的任务源有以下几种：DOM操作任务源、用户交互任务源、网络任务源（响网络活动）、history traversal任务源（eg:调用history.back()）
+除了上述task…]]></description><link>https://epson-lee.github.io/genius//posts/eventLoop/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/eventLoop/</guid><pubDate>Sat, 18 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Task&lt;/h2&gt;
+&lt;p&gt;一个event loop会有一个或多个task队列
+常见的任务源有以下几种：DOM操作任务源、用户交互任务源、网络任务源（响网络活动）、history traversal任务源（eg:调用history.back()）
+除了上述task来源常见的还有以下几种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;script&lt;/li&gt;
+&lt;li&gt;setTimeout/setInterval&lt;/li&gt;
+&lt;li&gt;I/O&lt;/li&gt;
+&lt;li&gt;UI交互&lt;/li&gt;
+&lt;li&gt;setImmediate(under nodeJS)&lt;/li&gt;
+&lt;li&gt;数据库操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Microtask&lt;/h2&gt;
+&lt;p&gt;一个EL中只有一个microtask队列，通常下面几种任务被认为是microtask&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;promise（promise的then和catch才是microtask，本身其内部的代码并不是）&lt;/li&gt;
+&lt;li&gt;MutationObserver&lt;/li&gt;
+&lt;li&gt;process.nextTick(nodejs环境中)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Eventloop 循环过程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在所有task队列中选择一个最早进队列的task，用户代理可以选择任何task队列，如果没有可选的任务，则跳到6Microtasks步骤。&lt;/li&gt;
+&lt;li&gt;将前一步选择的task设置为 currently running task&lt;/li&gt;
+&lt;li&gt;Run: 运行被选择的task&lt;/li&gt;
+&lt;li&gt;运行结束之后，将event loop的 currently running task 置为 null&lt;/li&gt;
+&lt;li&gt;从task队列里移除前边Run里运行的task&lt;/li&gt;
+&lt;li&gt;Microtasks: 执行microtasks任务检查点。（也就是执行microtasks队列里的任务）&lt;/li&gt;
+&lt;li&gt;更新渲染&lt;/li&gt;
+&lt;li&gt;如果这是一个worker event loop，但是task队列中没有任务，并且WorkerGlobalScope对象的closing标识为true，则销毁EL，中止这些步骤，然后 run a worker&lt;/li&gt;
+&lt;li&gt;返回到第1步&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[messy]]></title><description><![CDATA[rollup似乎没有支持 HMR 的plugins
+在官方的提供的 rollup/awesome
+中提供了一个NollupJavaScript]]></description><link>https://epson-lee.github.io/genius//posts/messy/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/messy/</guid><pubDate>Sat, 18 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;rollup&lt;/h2&gt;
+&lt;p&gt;似乎没有支持 HMR 的plugins
+在官方的提供的 &lt;em&gt;&lt;a href=&quot;https://github.com/rollup/awesome&quot;&gt;rollup/awesome&lt;/a&gt;&lt;/em&gt;
+中提供了一个&lt;em&gt;&lt;a href=&quot;https://github.com/PepsRyuu/nollup&quot;&gt;Nollup&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;JavaScript&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;in operator  如果指定的属性在指定的对象或原形链中，返回true或者false
+
+var arr = []
+if (&apos;length&apos; in arr) {
+  console.log(arr.length)
+}
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[vue-quirks]]></title><description><![CDATA[computed 传参]]></description><link>https://epson-lee.github.io/genius//posts/vue-quirks/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/vue-quirks/</guid><pubDate>Thu, 09 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h4&gt;computed 传参&lt;/h4&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/genius/static/04b0625f709dabbb314c550298c64085/3b243/vue-quirks.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 266.30859375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;avatar&quot;
+        title=&quot;&quot;
+        src=&quot;/genius/static/04b0625f709dabbb314c550298c64085/dbb61/vue-quirks.png&quot;
+        srcset=&quot;/genius/static/04b0625f709dabbb314c550298c64085/19bd1/vue-quirks.png 163w,
+/genius/static/04b0625f709dabbb314c550298c64085/d3bcb/vue-quirks.png 325w,
+/genius/static/04b0625f709dabbb314c550298c64085/dbb61/vue-quirks.png 650w,
+/genius/static/04b0625f709dabbb314c550298c64085/6b691/vue-quirks.png 975w,
+/genius/static/04b0625f709dabbb314c550298c64085/3b243/vue-quirks.png 1024w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Graph Plans]]></title><description><![CDATA[FashionReasonMLReasonMLReactNestCore计算机网络编译原理 -> ASTbabel机制webpack打包和前端工具的建设node core源码计划react doing...nervevue doingjs benchmark…]]></description><link>https://epson-lee.github.io/genius//posts/todo/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/todo/</guid><pubDate>Sun, 05 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Fashion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://curl.haxx.se/&quot;&gt;ReasonML&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://reasonml.github.io/reason-react//&quot;&gt;ReasonMLReact&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://docs.nestjs.com/&quot;&gt;Nest&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Core&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 计算机网络&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 编译原理 -&gt; AST&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; babel机制&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; webpack打包和前端工具的建设&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; node core&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;源码计划&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; react doing...&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; nerve&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; vue doing&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://curl.haxx.se/&quot;&gt;js benchmark 框架性能衡量工具&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;css&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; element-ui&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/Zhangjd/css-style-guide&quot;&gt;airbnb/css 标准&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://www.w3cplus.com/blog/tags/143.html&quot;&gt;css 各种单位&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;http://httpd.apache.org/docs/2.0/programs/ab.html&quot;&gt;Apache HTTP server benchmarking tool&lt;/a&gt;&lt;/em&gt; ab -n 1000 -c 100  &lt;a href=&quot;http://127.0.0.1:8999/&quot;&gt;http://127.0.0.1:8999/&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://curl.haxx.se/&quot;&gt;curl&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Node多线程&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/xiongwilee/blog/issues/9&quot;&gt;Node.js的线程和进程详解&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;http://luohaha.github.io/Chinese-uvbook/index.html&quot;&gt;An Intruction To libuv&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Book&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Computer Network A top-Down Approach chapter 1 - chapter 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; JavaScript 设计模式与开发实践——曾琛&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; You don&apos;t know JavaScript chapter 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 前端工程化体系建设与实践&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; MySQL必知必会&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Functional-Light JavaScript ing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;http://eloquentjavascript.net&quot;&gt;eloquentjavascript&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/&quot;&gt;Category Theory for Programmers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html&quot;&gt;Category Theory for Computer Science&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://blog.oyanglul.us/grokking-monad/part1&quot;&gt;范畴论完全装逼手册&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Code formatter tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; premitter 个人推崇代码就像树一样 纵向生长&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; ESLint vue-cli3.0中 配合 vscode 进行code formatter&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; editorconfig 编辑器格式统一工具 配合vscode editorConfig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New trends&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; ssr&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; graphql&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 负责运维平台前端的实现 + bilibili go.common&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; pwa service worker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;TeamWork&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; travis.yml&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; docker&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; esdoc jsdoc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;解放生产力 Tools changed our life&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//www.labnol.org/internet/github-gist-tutorial/28499/&quot; title=&quot;Title&quot;&gt;github gist 搭配 vscode 一个插件用起来感觉还不错&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Bl.ocks上托管自己的GIST资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;github: &lt;em&gt;&lt;a href=&quot;https://gist.github.com/EPSON-LEE/7be26eca228b92727afd75fe69b52782/&quot; title=&quot;Title&quot;&gt;https://gist.github.com/EPSON-LEE/7be26eca228b92727afd75fe69b52782&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org&quot;&gt;https://bl.ocks.org&lt;/a&gt;: &lt;em&gt;&lt;a href=&quot;https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b52782/&quot; title=&quot;Title&quot;&gt;https://bl.ocks.org/EPSON-LEE/7be26eca228b92727afd75fe69b52782&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;性能优化&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 1、上cdn 2、分包 3、写法上的问题 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; window.performance 实践经验少&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 火焰图 早期有实践，还需挖掘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 降低工程的编译时间 缩短打包时间&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; React devtools settings -&gt; Heighlight Updates -&gt; 可以看到&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tools and Framework&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://fontawesome.com/start&quot; title=&quot;Title&quot;&gt;Font Awesome&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://analytics.google.com/analytics/web/?authuser=1##/report/bf-overview/a136686458w197036174p191943216&quot; title=&quot;Title&quot;&gt;Google Analytics 站点访客分析&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://www.gatsbyjs.org&quot; title=&quot;Title&quot;&gt;React Gatsby 初步尝试后感觉相对比vue press而言有更丰富的文档和更高的自由度&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://coolors.co/&quot; title=&quot;Title&quot;&gt;配色网站&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Programming pattern&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/stoeffel/awesome-fp-js&quot; title=&quot;Title&quot;&gt;Functional Programming&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; this is a complete item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;文档建设&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; vue press&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; gatsby 文档更清晰、例子更多、更贴近react、更有成就感&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;typograph&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;graphql&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hooks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://web.hypothes.is/&quot;&gt;hypothes.is&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/gnab/remark&quot;&gt;slideshow tool&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;业务的一些自动化&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/alibaba/uform&quot;&gt;ali uform 号称可以解决表单配置化&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/final-form/final-form&quot;&gt;final form uform借鉴&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/mozilla-services/react-jsonschema-form&quot;&gt;react-json-form&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;em&gt;&lt;a href=&quot;http://tools.xiaoyaoji.cn/form/#/price&quot;&gt;vue-form-making&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;platform&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; netlify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;构建工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; rollup&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; webpack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;table&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://github.com/webpack/tapable&quot;&gt;table&lt;/a&gt;&lt;/em&gt;编写loaders 和 plugins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;统一平台&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; sso&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; cmsproxy&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; JWT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h2&gt;UI LIB&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Alibaba Fusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;vscode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; koroFileHeader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;debugger&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/shortcuts&quot;&gt;chrome shortcuts in devTools&lt;/a&gt;&lt;/em&gt; &lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;em&gt;&lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/javascript/reference?hl=zh-cn#stepping&quot;&gt;Debugging Reference&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;语言问题&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;step over: 逐行单步执行 不管下一行发生什么都会执行，并跳转到下一行。
+step into: investigate the function further     如果下一行包含一个函数调用，Step Into 将跳转并在其第一行暂停该函数。
+step out:   函数调用后，执行当前函数剩余部分，然后在下一个语句暂停。
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Pandas and Bananas]]></title><description><![CDATA[this is a complete item
+Do Pandas eat bananas? Check out this short video that shows that yes! pandas do
+seem to really enjoy bananas!]]></description><link>https://epson-lee.github.io/genius//posts/pandas-and-bananas/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/pandas-and-bananas/</guid><pubDate>Mon, 21 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; this is a complete item
+Do Pandas eat bananas? Check out this short video that shows that yes! pandas do
+seem to really enjoy bananas!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4SZl1r2O_bY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Sweet Pandas Eating Sweets]]></title><description><![CDATA[Pandas are really sweet.Here's a video of a panda eating sweets.]]></description><link>https://epson-lee.github.io/genius//posts/sweet-pandas-eating-sweets/</link><guid isPermaLink="false">https://epson-lee.github.io/genius//posts/sweet-pandas-eating-sweets/</guid><pubDate>Thu, 10 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Pandas are really sweet.&lt;/p&gt;
+&lt;p&gt;Here&apos;s a video of a panda eating sweets.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4n0xNbfJLR8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item></channel></rss>
