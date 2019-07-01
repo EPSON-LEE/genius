@@ -19,7 +19,7 @@ export default ({ children }) => {
 
   return (
     <div className={layoutCss.layout}>
-      <Header />
+      <Header /> 
       <div className={layoutCss.content}>{children}</div>
     </div>
   )

@@ -31,6 +31,7 @@ export default class MobileMenu extends Component {
           <div
             style={{
               color: "white",
+              fontSize: '40px'
             }}
           >
             &#9776;
