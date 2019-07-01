@@ -14,19 +14,19 @@ const routes = [
   {
     path: "/article/",
     title: "Article",
-  },
-  {
-    path: "/toy/",
-    title: "Toy",
-  },
-  {
-    path: "/hooks/",
-    title: "Hooks",
-  },
-  {
-    path: "/animate/",
-    title: "Animate",
   }
+  // {
+  //   path: "/toy/",
+  //   title: "Toy",
+  // },
+  // {
+  //   path: "/hooks/",
+  //   title: "Hooks",
+  // },
+  // {
+  //   path: "/animate/",
+  //   title: "Animate",
+  // }
 ]
 
 export default routes

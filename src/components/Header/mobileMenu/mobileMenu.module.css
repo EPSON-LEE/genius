@@ -1,10 +1,11 @@
 .mobile_menu {
-  background-color: black;
   display: inline-block;
   width: 100%;
   position: fixed;
   top: 0px;
+  background-color: black;
   z-index: 999;
+  display: none;
 }
 
 .mobile_menu_item {
@@ -26,4 +27,15 @@
 .mobile_active_menu_font_item {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .mobile_menu {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 999;
+  }
 }
